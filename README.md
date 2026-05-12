@@ -10,7 +10,7 @@ This repository is my personal learning space for building a solid foundation in
 
 All conceptual content, slides, and teaching materials in this repository are sourced from:
 
-- **[Sheryians Coding School](https://www.youtube.com/@SheryiansCodingSchool?utm_source=chatgpt.com)**
+- **[Sheryians AI School](https://www.youtube.com/@SheryiansAI))**
 
 > This repository is created purely for personal learning, revision, and educational purposes.  
 > No commercial use is intended.  
