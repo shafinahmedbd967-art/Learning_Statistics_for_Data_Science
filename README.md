@@ -154,7 +154,7 @@ Learning_Statistics_for_Data_Science/
 - statistics (built-in module)
 
 ---
----
+
 # 🚀 How to Use This Repository
 
 ## 1️⃣ Clone the Repository
@@ -193,7 +193,7 @@ By completing this course and repository, I aim to:
 
 # 📌 Source
 
-- 🏫 Course By: Sheryians Coding School
+- 🏫 Course By: Sheryians AI School
 - 📄 Material: Statistics for Beginners in Data Science (270-slide PDF)
 
 ---
