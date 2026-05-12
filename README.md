@@ -1,140 +1,206 @@
-```markdown
 # 📊 Learning_Statistics_for_Data_Science
 
-A structured collection of notes, slides, and practice material based on the **Statistics for Beginners in Data Science** course by **Sheryians Coding School**. This repo is my personal learning space for building a solid foundation in statistics — a non-negotiable skill for any data scientist or ML engineer.
+A structured collection of notes, slides, and practice material based on the **Statistics for Beginners in Data Science** course by **[Sheryians AI School](https://www.youtube.com/@SheryiansAI))**.
+
+This repository is my personal learning space for building a solid foundation in statistics — one of the most important skills for Data Science, Machine Learning, and AI.
 
 ---
 
-## 🙏 Credit & Attribution
+# 🙏 Credit & Attribution
 
-All conceptual content, slides, and teaching material in this repository are sourced from **[Sheryians Coding School](https://www.youtube.com/@SheryiansCodingSchool)**.
+All conceptual content, slides, and teaching materials in this repository are sourced from:
 
-> This repo is purely for personal study and revision purposes. No commercial use intended. All credit for the original content goes to the Sheryians team.
+- **[Sheryians AI School](https://www.youtube.com/@SheryiansAI))**
+
+> This repository is created purely for personal learning, revision, and educational purposes.  
+> No commercial use is intended.  
+> Full credit for the original course content belongs to the Sheryians team.
 
 ---
 
-## 📚 Topics Covered
+# 📚 Topics Covered
 
-The course covers statistics from the ground up with visual explanations and real-world examples. Here's a breakdown of every major topic:
+The course explains statistics from beginner to intermediate level using intuitive explanations, visuals, and real-world examples.
 
-### 🗂️ Data Representation & Tables
+---
+
+## 🗂️ Data Representation & Tables
+
 - **One Way Table** — understanding and reading single-variable data tables
-- **Two Way Table** — cross-tabulating two categorical variables
-- **Relative Frequency Table** — expressing data as proportions/percentages
-
-### 📈 Data Visualization
-- **Bar Graph** — comparing categorical data visually
-- **Line Graph** — tracking trends over time
-- **Histograms** — visualizing frequency distributions using bins
-- **Density Curve** — smoothed representation of a data distribution
-
-### 📐 Measures of Central Tendency
-- **Mean** — arithmetic average of a dataset
-- **Median** — the middle value in sorted data
-- **Mode** — the most frequently occurring value
-
-### 📏 Measures of Spread
-- **Range** — difference between max and min
-- **Interquartile Range (IQR)** — spread of the middle 50% of data
-- **Variance** — average squared deviation from the mean
-- **Standard Deviation** — square root of variance; most commonly used spread measure
-
-### 🔢 Summary Statistics
-- **5 Number Summary** — Min, Q1, Median, Q3, Max
-- **Box Plot** — visual representation of the 5 number summary
-- **Outliers** — identifying anomalies using upper and lower fences
-
-### 🔔 Distributions
-- **Density Curve & Skewness** — left skew, right skew, and symmetric distributions
-- **Normal Distribution** — the famous bell curve
-- **Z-Score** — how many standard deviations a data point is from the mean
-
-### 🔗 Relationships Between Variables
-- **Covariance** — direction of relationship between two variables (positive/negative)
-- **Correlation** — standardized measure of linear relationship strength
-- **Mean, Variance & Standard Deviation** — revisited in the context of sample vs population
-
-### 🎲 Probability
-- **Basic Probability** — likelihood of events, sample space, outcomes
-- **Addition Rule** — P(A or B)
-- **Independent Events** — events where one doesn't affect the other
-- **Conditional Probability** — P(A | B), probability given prior knowledge
-- **Bayes Theorem** — updating probability with new evidence
-
-### 🧪 Hypothesis Testing
-- **Hypothesis Testing** — null hypothesis (H₀) vs alternative hypothesis (H₁)
-- **Type 1 & Type 2 Error** — false positive vs false negative
-- **Z-Test** — testing if sample mean differs significantly from population mean
-- **T-Test** — used when population std dev is unknown or sample is small
-- **Two Sample Tests** — comparing means between two independent groups
-- **Chi-Square Test** — testing association between categorical variables
+- **Two Way Table** — cross-tabulation between two categorical variables
+- **Relative Frequency Table** — representing data using percentages/proportions
 
 ---
 
-## 🗂️ Repository Structure
+## 📈 Data Visualization
 
-```
+- **Bar Graph** — visual comparison of categorical data
+- **Line Graph** — trend analysis over time
+- **Histogram** — understanding frequency distributions using bins
+- **Density Curve** — smooth representation of distributions
+
+---
+
+## 📐 Measures of Central Tendency
+
+- **Mean** — arithmetic average
+- **Median** — middle value in ordered data
+- **Mode** — most frequently occurring value
+
+---
+
+## 📏 Measures of Spread
+
+- **Range** — difference between maximum and minimum values
+- **Interquartile Range (IQR)** — spread of the middle 50% data
+- **Variance** — average squared deviation from the mean
+- **Standard Deviation** — square root of variance
+
+---
+
+## 🔢 Summary Statistics
+
+- **5 Number Summary**
+  - Minimum
+  - Q1
+  - Median
+  - Q3
+  - Maximum
+
+- **Box Plot** — graphical representation of data spread
+- **Outliers** — anomaly detection using fences
+
+---
+
+## 🔔 Distributions
+
+- **Density Curve & Skewness**
+  - Left Skewed
+  - Right Skewed
+  - Symmetric Distribution
+
+- **Normal Distribution** — bell curve distribution
+- **Z-Score** — standardized distance from mean
+
+---
+
+## 🔗 Relationships Between Variables
+
+- **Covariance** — direction of relationship
+- **Correlation** — strength of linear relationship
+- **Sample vs Population Statistics**
+  - Mean
+  - Variance
+  - Standard Deviation
+
+---
+
+## 🎲 Probability
+
+- **Basic Probability**
+- **Sample Space & Outcomes**
+- **Addition Rule**
+- **Independent Events**
+- **Conditional Probability**
+- **Bayes Theorem**
+
+Inline formula for Bayes Theorem:
+
+
+::contentReference[oaicite:2]{index=2}
+
+
+---
+
+## 🧪 Hypothesis Testing
+
+- **Null Hypothesis (H₀)**
+- **Alternative Hypothesis (H₁)**
+- **Type 1 Error**
+- **Type 2 Error**
+- **Z-Test**
+- **T-Test**
+- **Two Sample Tests**
+- **Chi-Square Test**
+
+---
+
+# 🗂️ Repository Structure
+
+```bash
 Learning_Statistics_for_Data_Science/
 │
-├── notes/               # Topic-wise written notes and summaries
-├── slides/              # PDF slides from the Sheryians course
-├── code/                # Python implementations and practice problems
+├── notes/               # Topic-wise notes and summaries
+├── slides/              # PDF slides from the course
+├── code/                # Python implementations & practice
 │   ├── central_tendency.py
 │   ├── spread_measures.py
 │   ├── probability.py
 │   ├── hypothesis_testing.py
 │   └── ...
-├── datasets/            # Sample datasets used for practice
+│
+├── datasets/            # Practice datasets
 └── README.md
 ```
+---
+# 🛠️ Tools & Libraries Used
 
-> 📝 Structure will be updated as the repo grows.
+- Python 3.x
+- numpy
+- pandas
+- matplotlib
+- seaborn
+- scipy
+- statistics (built-in module)
 
 ---
 
-## 🛠️ Tools & Libraries Used
+# 🚀 How to Use This Repository
 
-- **Python 3.x**
-- `numpy` — numerical computations
-- `pandas` — data manipulation
-- `matplotlib` / `seaborn` — data visualization
-- `scipy` — statistical tests (Z-test, T-test, Chi-square)
-- `statistics` (built-in) — basic stats functions
+## 1️⃣ Clone the Repository
 
----
-
-## 🚀 How to Use This Repo
-
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/your-username/Learning_Statistics_for_Data_Science.git
-   cd Learning_Statistics_for_Data_Science
-   ```
-
-2. Install dependencies:
-   ```bash
-   pip install numpy pandas matplotlib seaborn scipy
-   ```
-
-3. Browse topics in the `notes/` or `code/` folders, or open the slides PDF.
-
----
-
-## 🎯 Goal
-
-By the end of this course + this repo, I aim to:
-- Understand and apply all foundational statistics concepts used in data science
-- Be comfortable reading and interpreting data distributions, summary stats, and test results
-- Know when and how to apply the right statistical test for a given problem
-
----
-
-## 📌 Source
-
-- 🏫 **Course by:** [Sheryians Coding School](https://www.youtube.com/@SheryiansCodingSchool)
-- 📄 **Material:** Statistics for Beginners in Data Science (270-slide PDF)
-
----
-
-*Happy learning! Statistics is the language data speaks — learn to listen. 📊*
+```bash
+git clone https://github.com/your-username/Learning_Statistics_for_Data_Science.git
+cd Learning_Statistics_for_Data_Science
 ```
+---
+## 2️⃣ Install Dependencies
+
+```bash
+pip install numpy pandas matplotlib seaborn scipy
+```
+
+---
+
+## 3️⃣ Start Learning
+
+- Read notes from the `notes/` folder
+- Explore code examples from the `code/` directory
+- Open the slides PDF for full visual explanations
+
+---
+
+# 🎯 Learning Goals
+
+By completing this course and repository, I aim to:
+
+- Build strong statistical foundations for Data Science
+- Understand distributions, probability, and hypothesis testing
+- Learn how to interpret statistical results correctly
+- Know when and how to apply statistical techniques in real-world problems
+
+---
+
+# 📌 Source
+
+- 🏫 Course By: Sheryians AI School
+- 📄 Material: Statistics for Beginners in Data Science (270-slide PDF)
+
+---
+
+# ⭐ Final Note
+
+> Statistics is the language of data.  
+> The better you understand statistics, the better you understand data itself. 📊
+
+Happy Learning 🚀
