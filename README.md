@@ -141,7 +141,7 @@ Learning_Statistics_for_Data_Science/
 │
 ├── datasets/            # Practice datasets
 └── README.md
-
+```
 ---
 # 🛠️ Tools & Libraries Used
 
@@ -154,7 +154,7 @@ Learning_Statistics_for_Data_Science/
 - statistics (built-in module)
 
 ---
-
+---
 # 🚀 How to Use This Repository
 
 ## 1️⃣ Clone the Repository
